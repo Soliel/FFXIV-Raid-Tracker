@@ -1,12 +1,9 @@
-$primaryColor:   #212121;
-$primaryLight:   #484848;
-$primaryDark:    #000000;
-$primaryText:    #ffffff;
-$secondaryColor: #42a5f5;
-$secondaryLight: #80d6ff;
-$secondaryDark:  #0077c2;
-$secondaryText:  #000000;
-$background:     #121212;
+$mdc-theme-primary:       #8c8597;
+$mdc-theme-secondary:     #85625D;
+$mdc-theme-on-primary:    #000000;
+$mdc-theme-on-secondary:  #ffffff;
+$mdc-theme-on-background: #ffffff;
+$background:              #121212;
 
 @function get-height-color($level) {
     @if $level == 0 {

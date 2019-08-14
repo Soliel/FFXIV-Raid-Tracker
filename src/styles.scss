@@ -3,7 +3,7 @@
 
 html {
   background-color: $background;
-  color: $primaryText;
+  color: $mdc-theme-on-background;
   overflow-x: hidden;
   font-family: 'Roboto', Arial,  sans-serif;
   width: 100%;
@@ -13,7 +13,7 @@ html {
 a {
   text-align: center;
   text-decoration: none;
-  color: $primaryText;
+  color: $mdc-theme-on-background;
 }
 
 app-navbar {

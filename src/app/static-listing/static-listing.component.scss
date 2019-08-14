@@ -1,15 +1,27 @@
 @import "../../Mixins";
 @import "../../Palette";
+@import "~@material/ripple/mdc-ripple";
+@import "~@material/button/mdc-button";
+@import "~@material/typography/mdc-typography";
 
-a {
+.mdc-button {
   display: block;
-  width: 100%;
+  width: 98%;
   height: 20%;
   padding: 1em;
-  margin: .5em;
-  @include set-height(2);
+  margin: 1em auto;
+  @include mdc-button-container-fill-color(get-height-color(6));
+  @include mdc-button-ink-color($mdc-theme-on-background);
 }
 
-a:hover {
-  @include set-hover(2);
+.borderBox {
+  @include mdc-typography(overline);
+  border: 2px solid $mdc-theme-primary;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.borderLegend {
+  padding: auto 5%;
 }

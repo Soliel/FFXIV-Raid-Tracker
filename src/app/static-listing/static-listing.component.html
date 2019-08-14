@@ -1,4 +1,7 @@
-<div *ngFor="let static of staticListing | async index as StaticID">
-  <a [routerLink]="['/statics', StaticID]"> {{ static.StaticName }} </a>
-</div>
+<fieldset class="borderBox">
+  <legend>Your Statics</legend>
+  <div *ngFor="let static of staticListing | async index as StaticID">
+    <a #rippleComponent class="mdc-button mdc-button--raised" [routerLink]="['/statics', StaticID]"> {{ static.StaticName }} </a>
+  </div>
+</fieldset>
 
