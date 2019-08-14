@@ -2,7 +2,7 @@
 @import "Palette";
 
 html {
-  background-color: $primaryColor;
+  background-color: $background;
   color: $primaryText;
   overflow-x: hidden;
   font-family: 'Roboto', Arial,  sans-serif;
@@ -22,8 +22,7 @@ app-navbar {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: $primaryDark;
-  @include box_shadow(2);
+  @include set-height(6);
 }
 
 body {

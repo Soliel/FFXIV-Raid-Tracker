@@ -6,3 +6,33 @@ $secondaryColor: #42a5f5;
 $secondaryLight: #80d6ff;
 $secondaryDark:  #0077c2;
 $secondaryText:  #000000;
+$background:     #121212;
+
+@function get-height-color($level) {
+    @if $level == 0 {
+        @return mix(white, $background, 0%);
+    } @else if $level == 1 {
+        @return mix(white, $background, 5%);
+    } @else if $level <= 6 {
+        @return mix(white, $background, 5 + $level);
+    } @else if $level <= 8 {
+        @return mix(white, $background, 12%);
+    } @else if $level <= 10 {
+        @return mix(white, $background, 13%);
+    } @else if $level < 12 {
+        @return mix(white, $background, 14%);
+    } @else if $level < 16 {
+        @return mix(white, $background, 15%);
+    } @else {
+        @return mix(white, $background, 16%);
+    }
+}
+
+
+@mixin set-height($level) {
+    background-color: get-height-color($level);
+}
+
+@mixin set-hover($level) {
+    background-color: mix(white, get-height-color($level), 4%);
+}
