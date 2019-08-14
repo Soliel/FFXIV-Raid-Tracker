@@ -1,0 +1,34 @@
+@import "../../Mixins";
+@import "../../Palette";
+
+
+
+ul {
+  font-weight: bold;
+  font-size: 1.3em;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
+li {
+  float: right;
+  height: 100%;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+a {
+  display: flex;
+  z-index: 1;
+}
+
+li:hover{
+  cursor: pointer;
+}

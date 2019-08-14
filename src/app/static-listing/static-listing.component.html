@@ -1,0 +1,4 @@
+<div *ngFor="let static of staticListing | async index as StaticID">
+  <a [routerLink]="['/statics', StaticID]"> {{ static.StaticName }} </a>
+</div>
+

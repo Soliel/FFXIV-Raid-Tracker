@@ -1,0 +1,69 @@
+{
+  "StaticName":"Amazing Static with amazing people",
+  "Players": [
+    {
+      "playerName":"Soliel Circe",
+      "Class": "DRG",
+      "Items":[
+        {
+          "ID":26895,
+          "Icon":"\/i\/026000\/026560.png",
+          "Name":"Edengrace Hand Gear Coffer",
+          "AquisitionTime":"2019-08-1T00:00:00"
+        },
+        {
+          "ID":27409,
+          "Icon":"\/i\/026000\/026582.png",
+          "Name":"Lightweight Tomestone",
+          "AquisitionTime":"2019-08-9T20:30:00"
+        },
+        {
+          "ID":27405,
+          "Icon":"\/i\/027000\/027625.png",
+          "Name":"Deepshadow Solvent",
+          "AquisitionTime":"2019-08-9T20:30:00"
+        }
+      ]
+    },
+    {
+      "playerName":"Flexa Belrose",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    },
+    {
+      "playerName":"Sizzy",
+      "Class":"PLD",
+      "Items":[]
+    }
+  ]
+}
