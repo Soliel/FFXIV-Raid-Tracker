@@ -16,7 +16,7 @@ export class StaticListingComponent implements AfterViewInit {
     private http: HttpClient,
     public linkElement: ElementRef
   ) {
-    this.staticListing = http.get('/assets/TestStaticPayload.json');
+    this.staticListing = http.get('/bundles/AngularOutput/assets/TestStaticPayload.json');
   }
 
   ngAfterViewInit() {

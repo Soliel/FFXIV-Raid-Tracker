@@ -4,7 +4,10 @@ import { StaticListingComponent } from './static-listing/static-listing.componen
 
 
 const routes: Routes = [
-  {path: '', component: StaticListingComponent}
+  {
+    path: '',
+    component: StaticListingComponent
+  }
 ];
 
 @NgModule({
